@@ -20,10 +20,10 @@ def dicom_to_png(dicom_path, output_path, subdir_name):
     print(f"Conversão concluída: {dicom_path} -> {png_path}")
 
 # Diretório contendo os arquivos DICOM
-dicom_directory = "D://Iniciação_Moises//Pacientes//Câncer//LIDC-IDRI-0102//01-01-2000-NA-NA-76051"
+dicom_directory = "C://Users//maste//OneDrive//Área de Trabalho//normal//paciente01"
 
 # Diretório de saída para os arquivos PNG
-output_directory = "D://Iniciação_Moises//Pacientes//Câncer//LIDC-IDRI-0102//paciente102"
+output_directory = "D://Iniciação_Moises//Pacientes//Normal//treino"
 
 # Diretório de saída 
 os.makedirs(output_directory, exist_ok=True)
